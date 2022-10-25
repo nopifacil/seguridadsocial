@@ -12,15 +12,15 @@
 
 @keyframes banner{
     0%, 30% {
-        background-image: url(assets/images/banner.jpg);
+        background-image: url(images/banner.jpg);
         opacity: 1;
     }
     35%, 65% {
-        background-image: url(assets/images/banner1.jpg);
+        background-image: url(images/banner1.jpg);
         opacity: 1;
     }
     70%, 100% {
-        background-image: url(assets/images/banner2.jpg);
+        background-image: url(images/banner2.jpg);
         opacity: 1;
     }
 

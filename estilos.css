@@ -1,0 +1,27 @@
+/*Estilos banner*/
+
+.banner {
+    width: 1200px;
+    height: 500px;
+    border: 3px solid red;
+    margin:auto;
+    background-size: 100% 100%;
+    animation:banner 15s infinite;
+    
+}
+
+@keyframes banner{
+    0%, 30% {
+        background-image: url(assets/images/banner.jpg);
+        opacity: 1;
+    }
+    35%, 65% {
+        background-image: url(assets/images/banner1.jpg);
+        opacity: 1;
+    }
+    70%, 100% {
+        background-image: url(assets/images/banner2.jpg);
+        opacity: 1;
+    }
+
+}
